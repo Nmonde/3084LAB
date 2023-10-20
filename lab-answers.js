@@ -120,3 +120,50 @@ for (let theTurtles of teenageMutantNijaTurtle ) {
 } console.log(teenageMutantNijaTurtle);
 console.log("Now I've printed the turtle as requested");
 console.log("Yell at the Ninja Turtles answered")
+
+//Methods, Revisited:
+//Here is a list of favorite movies:
+//const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// Console log the index of Titanic.
+//console.log(favMovies[8]);
+// Do the following and console.log the final results. (I have included some thought questions; you don't have to write out an answer for those marked as such).
+// Note: if you have to add to the array, feel free to add any movie you'd like.
+
+// 1.) Use the .sort method.
+//favMovies.sort();
+//console.log(favMovies)
+// 2.) Thought Question: What did this do to the array? Did it permanently alter it?
+//console.log("The movies are in alphabetical order by the first letter of each element!");
+// 3.) Use the method pop.
+//favMovies.pop();
+// console.log(favMovies);
+// console.log("Whoops the .pop did do anything.")
+
+// const yourFavMovies = favMovies.pop();
+// console.log(yourFavMovies);
+// console.log("Volver was sucessfully popped!");
+// // 4.) push "Guardians of the Galaxy".
+// favMovies.push("Guardians of the Galaxy");
+// console.log(favMovies); 
+// //5.) Reverse the array.
+// // have to assign it tto a varible since I did each steps Methods, Revisited individually.
+// //favMovies.reverse();
+// console.log(favMovies);
+// Use the shift method.
+// unshift - what does it return?
+// splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained" instead of counting it yourself).
+// Thought Question: Did this permanently alter our array?
+// slice the last half of the array. (Challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it.)
+// Thought Question: Did this permanently alter our array?
+// Store the value of your slice in a variable and console.log it.
+// Thought Question: What is going on here?
+// console.log your final results.
+
+// After running the above tasks, console.log the index of "Fast and Furious."
+
+// We removed it from the array. What value do we get when we look for the index of something that is not in the array?
+// Thought Question: We declared the variable favMovies with const, and yet we were allowed to change the array. Weird? Should we have used let?
+
+// The commit message should read: "Methods Revisited answered"
+
+
