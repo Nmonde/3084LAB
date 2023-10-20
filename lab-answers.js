@@ -98,3 +98,25 @@ const updateWolfy = wolfy.slice();
 updateWolfy[0] = Gameboy;
 console.log(updateWolfy);
 console.log("Wolfy shouldn't have to change his name.")
+
+// Yell at the Ninja Turtles:
+//     Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo).
+//     Use a for of loop to call toUpperCase() on each of them and print out the result.
+
+// Haven't heard of for of loops?
+
+// As a developer, you'll be a lifelong learner and constantly encountering new things. We'll give you little stretches like this to get you used to looking at documentation and figuring some things out on your own. You've got this!
+
+//     The commit message should read: "Yell at the Ninja Turtles answered"
+const teenageMutantNijaTurtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let turtleNinjas=0; turtleNinjas< teenageMutantNijaTurtle.length; turtleNinjas++) {
+    teenageMutantNijaTurtle[turtleNinjas]= teenageMutantNijaTurtle[turtleNinjas].toUpperCase();
+} console.log(teenageMutantNijaTurtle);
+console.log("Yell at the Ninja Turtles answered")
+//actually...
+for (let theTurtles of teenageMutantNijaTurtle ) {
+    theTurtles = theTurtles.toUpperCase();
+} console.log(teenageMutantNijaTurtle);
+console.log("Now I've printed the turtle as requested");
+console.log("Yell at the Ninja Turtles answered")
