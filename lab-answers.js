@@ -169,6 +169,7 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 const  sliceArray = array.slice(,);
 return array;
  } console.log(manipulateMovieArray(favMovies));
+ console.log("Methods Revisited answered");
 console.log("Method Reverse is done but my system pooped out! I learn to manipulate thee array.")
 
 
